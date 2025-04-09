@@ -5,7 +5,7 @@ layout: page
 {%- assign items = site.data[site.metadata] | where_exp: 'item', 'item.objectid != nil' -%}
 <div class="row">
   <div class="col-md-8">
-
+    {% include nav-search-lunr.html %}
     {% include index/description.html %}
     {% include index/carousel.html title="Sample Items" height="300" %}
   
