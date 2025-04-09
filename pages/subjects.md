@@ -1,6 +1,6 @@
 ---
 title: Subjects
-layout: page-sidebar
+layout: cloud
 permalink: /subjects.html
 # Default subject page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.subjects-fields"
