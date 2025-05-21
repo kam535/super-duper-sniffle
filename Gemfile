@@ -13,3 +13,5 @@ source "https://rubygems.org"
 gem "jekyll"
 
 gem "webrick", "~> 1.7"
+
+ gem "jekyll-lunr-js-custom-search", :git => "git://github.com/dnoneill/jekyll-lunr-js-custom-search.git"
